@@ -77,22 +77,22 @@ function weatherDetails(info){
 
 
         if( id == 800){
-            wicon.src = "wh-con/clear.png";
+            wicon.src = "clear.png";
         }
         else if( id >= 200 && id <= 232){
-            wicon.src = "wh-con/thunderstorm.png";
+            wicon.src = "thunderstorm.png";
         }
         else if( id >= 600 && id <= 622){
-            wicon.src = "wh-con/snow.png";
+            wicon.src = "snow.png";
         }
         else if( id >= 701 && id <= 781){
-            wicon.src = "wh-con/haze.png";
+            wicon.src = "haze.png";
         }
         else if( id >= 801 && id <= 804){
-            wicon.src = "wh-con/cloudy.png";
+            wicon.src = "cloudy.png";
         }
         else if( (id >= 300 && id <= 321 ) || (id >= 500 && id<= 531) ){
-            wicon.src = "wh-con/rain.png";
+            wicon.src = "rain.png";
         }
 
 
