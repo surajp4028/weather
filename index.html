@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- icon------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>weather</title>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <header><i class="fa-solid fa-arrow-left"></i>Check Weather</header>
+        <div class="get-data">
+            <p class="info-text"></p>
+            <input type="text" placeholder="Enter City name" required>
+            <div class="seprate"></div>
+            <button>Get Device Location</button>
+        </div>
+        <section class="whether-result">
+            <div class="main-result">
+                <img src="wh-con/cloudy.png" alt="">
+                <div class="temp">
+                    <span class="num">13</span>
+                    <span class="deg"><sup><sup>o </sup></sup></span>C
+                </div>
+                <div class="wh-condition">
+                    <span class="condition">Broken Clouds</span>
+                </div>
+                <div class="area">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="place"></span>
+                </div>
+            </div>
+            <div class="feel-humidity">
+                <div class="feel">
+                    <i class="fa-solid fa-temperature-full"></i>
+                    <div>
+                        <span class="feel-value">17</span>
+                        <span class="feel-deg">°</span>
+                        <span class="c">C</span>
+                        <br>
+                        <span class="feel-like">Feel like</span>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <span class="feel-value">17</span>
+                        <span>%</span>
+                        <br>
+                        <span class="feel-like">Humidity</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
